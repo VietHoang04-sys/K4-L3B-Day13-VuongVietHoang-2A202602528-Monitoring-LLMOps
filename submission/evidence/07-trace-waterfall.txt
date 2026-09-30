@@ -1,0 +1,5 @@
+Trace ID: 8a41674c220840553504a6385fdf8ad5
+correlation_id: req-60e0a623
+lab-agent-run [AGENT] id=0c4c60e7d51539bc
+  |-- retrieval [RETRIEVER] id=0997c6d4ede7f8a4 parent=0c4c60e7d51539bc duration=0 ms
+  |-- llm-generation [GENERATION] id=d4fa55cc8c52bd3c parent=0c4c60e7d51539bc duration=152 ms model=claude-sonnet-4-5 usage={'input': 33, 'output': 153, 'total': 186} cost={'input': 9.9e-05, 'output': 0.002295, 'total': 0.002394}

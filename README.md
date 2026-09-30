@@ -214,8 +214,8 @@ SLO là mục tiêu chất lượng, ví dụ `99.5% request thành công và la
 Chỉ chạy khi Lab Coach thông báo mở challenge của K4-L3B. Tại CP3, Lab Coach gửi riêng file đúng lớp; lưu file đó tại `config/challenge.json`. File này đã được `.gitignore` và **không được** force-add/commit/push:
 
 ```bash
-python scripts/inject_incident.py
-python scripts/load_test.py --challenge --concurrency 5
+python scripts/inject_incident.py --challenge-file config/K4-L3B-challenge.json
+python scripts/load_test.py --challenge --challenge-file config/K4-L3B-challenge.json --concurrency 5
 ```
 
 Điều tra theo thứ tự:

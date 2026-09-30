@@ -1,0 +1,6 @@
+Challenge response evidence (payload and prompts omitted):
+{"ts": "2026-09-30T12:40:53.755631Z", "event": "response_sent", "correlation_id": "req-536d1892", "latency_ms": 3574, "ttft_ms": 50, "tool_name": "retrieval", "tool_success": true}
+{"ts": "2026-09-30T12:40:56.417332Z", "event": "response_sent", "correlation_id": "req-a3d8a4df", "latency_ms": 2655, "ttft_ms": 50, "tool_name": "retrieval", "tool_success": true}
+{"ts": "2026-09-30T12:40:59.086639Z", "event": "response_sent", "correlation_id": "req-2b8ecb36", "latency_ms": 2656, "ttft_ms": 50, "tool_name": "retrieval", "tool_success": true}
+{"ts": "2026-09-30T12:41:01.755614Z", "event": "response_sent", "correlation_id": "req-2f7850e2", "latency_ms": 2656, "ttft_ms": 50, "tool_name": "retrieval", "tool_success": true}
+{"ts": "2026-09-30T12:41:04.412834Z", "event": "response_sent", "correlation_id": "req-bbe06e56", "latency_ms": 2652, "ttft_ms": 50, "tool_name": "retrieval", "tool_success": true}

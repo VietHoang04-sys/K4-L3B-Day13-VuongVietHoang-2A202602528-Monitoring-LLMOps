@@ -88,8 +88,8 @@ API trả `ok: true`, log được tạo, trace xuất hiện trong đúng proje
 Sau khi Lab Coach gửi riêng file đúng lớp, lưu file tại `config/challenge.json`. File đã được `.gitignore`; không force-add, commit, push hoặc chia sẻ file:
 
 ```powershell
-python scripts/inject_incident.py
-python scripts/load_test.py --challenge --concurrency 5
+python scripts/inject_incident.py --challenge-file config/K4-L3B-challenge.json
+python scripts/load_test.py --challenge --challenge-file config/K4-L3B-challenge.json --concurrency 5
 ```
 
 1. Xác định triệu chứng và khoảng thời gian trên dashboard/metrics.

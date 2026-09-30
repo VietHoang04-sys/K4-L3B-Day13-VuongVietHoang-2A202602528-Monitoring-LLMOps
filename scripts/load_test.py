@@ -37,10 +37,16 @@ def main() -> None:
         action="store_true",
         help="Dùng input chính thức trong config/challenge.json sau khi được release.",
     )
+    parser.add_argument(
+        "--challenge-file",
+        type=Path,
+        default=REPO_ROOT / "config" / "challenge.json",
+        help="Đường dẫn tới file challenge riêng do Lab Coach cấp.",
+    )
     args = parser.parse_args()
 
     if args.challenge:
-        challenge = load_challenge()
+        challenge = load_challenge(args.challenge_file)
         payloads = ordered_queries(challenge)
         print(f"Challenge: {challenge.challenge_id} | Cohort: {challenge.cohort}")
     else:

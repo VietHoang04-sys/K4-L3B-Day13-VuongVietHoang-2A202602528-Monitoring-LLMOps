@@ -1,0 +1,8 @@
+Command: python -m pytest -q tests/test_pii.py
+....                                                                     [100%]
+4 passed in 0.15s
+
+Synthetic test input (not real personal data):
+Email learner@example.invalid; phone 0901234567; CCCD 001234567890; card 4111111111111111
+Scrubbed output:
+Email [REDACTED_EMAIL]; phone [REDACTED_PHONE_VN]; CCCD [REDACTED_CCCD]; card [REDACTED_CREDIT_CARD]

@@ -1,0 +1,21 @@
+Sanitized structured-log sample (payload omitted):
+{
+  "ts": "2026-09-30T12:14:08.023629Z",
+  "level": "info",
+  "service": "api",
+  "event": "response_sent",
+  "correlation_id": "req-27240e82",
+  "user_id_hash": "2055254ee30a",
+  "session_id": "s01",
+  "feature": "qa",
+  "model": "claude-sonnet-4-5",
+  "env": "dev",
+  "latency_ms": 1425,
+  "ttft_ms": 50,
+  "tokens_in": 36,
+  "tokens_out": 91,
+  "cost_usd": 0.001473,
+  "quality_score": 0.9,
+  "tool_name": "retrieval",
+  "tool_success": true
+}

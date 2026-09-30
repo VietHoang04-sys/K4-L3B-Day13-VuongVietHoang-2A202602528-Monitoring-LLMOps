@@ -1,0 +1,8 @@
+Challenge ID: day13-k4-l3b-monitoring-llmops-v1
+Window (UTC): 2026-09-30T12:40:50.177068Z to 2026-09-30T12:41:04.412834Z
+Challenge requests: 5
+Challenge latency threshold: 2000 ms
+Latency P95 (nearest-rank): 3574 ms
+TTFT P95 (nearest-rank): 50 ms
+Retrieval success: 5/5
+Latency samples (ms): 3574, 2655, 2656, 2656, 2652

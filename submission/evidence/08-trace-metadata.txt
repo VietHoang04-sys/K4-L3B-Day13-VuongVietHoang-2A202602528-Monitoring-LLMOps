@@ -1,0 +1,9 @@
+Trace ID: c1c92382bb2e3ac87d865b3dc1859eee
+correlation_id: req-daa7a4e4
+prompt_name: day13-chat
+prompt_label: candidate
+prompt_version: 2
+prompt_source: langfuse
+generation_model: claude-sonnet-4-5
+usage_details: {'input': 44, 'output': 162, 'total': 206}
+cost_details: {'input': 0.000132, 'output': 0.00243, 'total': 0.002562}

@@ -1,0 +1,21 @@
+Langfuse project observations (root traces):
+Root trace count in the last 2 hours: 19
+f384228b6e74a382aefc3ffa4a55a1e0 | req-f5623529 | lab-agent-run | production | local-v1 | local-fallback
+44aa3045fa97756f912ec746a72b491b | req-d354aaaf | lab-agent-run | production | local-v1 | local-fallback
+8beb52ad132040ad955e01ab2d85ea5d | req-35afbc40 | lab-agent-run | production | local-v1 | local-fallback
+f1fed8017baf298cbdc85d25b9bf7ac0 | req-fff348c7 | lab-agent-run | production | local-v1 | local-fallback
+20298d2014c5a73433b4ee8a0c6a8154 | req-550590e7 | lab-agent-run | production | local-v1 | local-fallback
+23ad1eaf0edf662d6b9a8638b0892263 | req-fc65902b | lab-agent-run | production | local-v1 | local-fallback
+53653c751d9df3251f73ef0c49909973 | req-9f1a5977 | lab-agent-run | production | local-v1 | local-fallback
+1b4e1f38ca9193057f9c2748370b3348 | req-b18f5a60 | lab-agent-run | production | local-v1 | local-fallback
+834fbea33a3a8890594875842031d783 | req-5f8e2c2c | lab-agent-run | production | local-v1 | local-fallback
+e7094171fc173d3ad8a7b1e0a6e01167 | req-84e40a32 | lab-agent-run | production | local-v1 | local-fallback
+8a41674c220840553504a6385fdf8ad5 | req-60e0a623 | lab-agent-run | baseline | 1 | langfuse
+c1c92382bb2e3ac87d865b3dc1859eee | req-daa7a4e4 | lab-agent-run | candidate | 2 | langfuse
+37c9cbe362062ef456731198668db3b4 | req-3e6fc41d | lab-agent-run | production | 2 | langfuse
+96547e136cdbd11a5e5beb0690c92379 | req-46f8f5f6 | lab-agent-run | production | 1 | langfuse
+d23c8e6e97d36d996ffebb872a3fed89 | req-536d1892 | lab-agent-run | production | 1 | langfuse
+36834a2312d4bf36d44d355106a4495d | req-a3d8a4df | lab-agent-run | production | 1 | langfuse
+eba893097d5b51d165ec445c9d79d4ff | req-2b8ecb36 | lab-agent-run | production | 1 | langfuse
+d673c2bea0e39c6e5cdc164d43ce50ca | req-2f7850e2 | lab-agent-run | production | 1 | langfuse
+94fb9f32cc0ac5ab260a150c371e0ed7 | req-bbe06e56 | lab-agent-run | production | 1 | langfuse

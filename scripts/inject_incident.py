@@ -25,9 +25,15 @@ def main() -> None:
         help="Chỉ dùng cho practice. Bỏ tham số này để đọc config/challenge.json.",
     )
     parser.add_argument("--disable", action="store_true")
+    parser.add_argument(
+        "--challenge-file",
+        type=Path,
+        default=REPO_ROOT / "config" / "challenge.json",
+        help="Đường dẫn tới file challenge riêng do Lab Coach cấp.",
+    )
     args = parser.parse_args()
 
-    scenario = resolve_incident(args.scenario)
+    scenario = resolve_incident(args.scenario, args.challenge_file)
     path = f"/incidents/{scenario}/disable" if args.disable else f"/incidents/{scenario}/enable"
     r = httpx.post(f"{BASE_URL}{path}", timeout=10.0)
     print(r.status_code, r.json())

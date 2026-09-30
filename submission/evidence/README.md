@@ -5,25 +5,25 @@
 Tên file gợi ý:
 
 ```text
-01-pytest.png
-02-log-validator.png
-03-dashboard-validator.png
-04-structured-log.png
-05-pii-redaction.png
-06-trace-list.png
-07-trace-waterfall.png
-08-trace-metadata.png
-09-prompt-versions.png
-10-prompt-rollback.png
+01-pytest.txt
+02-log-validator.txt
+03-dashboard-validator.txt
+04-structured-log.txt
+05-pii-redaction.txt
+06-trace-list.png and 06-trace-list.txt
+07-trace-waterfall.png and 07-trace-waterfall.txt
+08-trace-metadata.txt
+09-prompt-versions.png and 09-prompt-versions.txt
+10-prompt-rollback.png and 10-prompt-rollback.txt
 11-dashboard-overview.png
-12-incident-metric.png
-13-incident-log.png
-14-incident-trace.png
+12-incident-metric.txt
+13-incident-log.txt
+14-incident-trace.png and 14-incident-trace.txt
 ```
 
 Có thể dùng `.txt` cho output của tests/validators. Có thể tách dashboard thành nhiều ảnh nếu một ảnh không đọc rõ.
 
-Ảnh `04`, `05`, `13` lấy từ terminal hoặc `data/logs.jsonl`. Ảnh `06`–`10`, `14` lấy từ project Langfuse cá nhân `day13-k4-l3b-<MSSV>` và nên nhìn thấy tên project. Không mở/chụp trang API Keys.
+Evidence `04`, `05`, `13` lấy từ terminal hoặc `data/logs.jsonl`. Ảnh `06`, `07`, `09`, `10`, `14` lấy từ project Langfuse cá nhân `day13-k4-l3b-<MSSV>`; nên nhìn thấy tên project. Không mở/chụp trang API Keys.
 
 Từ `submission/REPORT.md`, dẫn ảnh bằng đường dẫn tương đối:
 

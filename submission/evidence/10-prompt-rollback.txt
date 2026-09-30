@@ -1,0 +1,4 @@
+Prompt label promotion and rollback (same input):
+Promoted production -> v2: trace_id=37c9cbe362062ef456731198668db3b4, correlation_id=req-3e6fc41d, source=langfuse
+Rolled production -> v1: trace_id=96547e136cdbd11a5e5beb0690c92379, correlation_id=req-46f8f5f6, source=langfuse
+Final labels: v1=baseline,production; v2=candidate,latest
